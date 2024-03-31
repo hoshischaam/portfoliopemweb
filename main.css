@@ -1,0 +1,137 @@
+.navbar {
+  background-color: #ffffff;
+
+  .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linier;
+  }
+
+  .nav-item {
+    .nav-link {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+}
+
+/* Styles for hiding navbar on scroll */
+.navbar.hidden {
+  top: -100px; /* Adjust as needed to hide completely */
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linier;
+  -webkit-transition: background-color 200ms linier;
+  -moz-transition: background-color 200ms linier;
+  -ms-transition: background-color 200ms linier;
+  -o-transition: background-color 200ms linier;
+}
+
+.nav-item {
+  .nav-link {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+body {
+  font-family: "sora", sans-serif;
+}
+
+.page-project {
+  background-color: black; /* Mengatur latar belakang menjadi hitam */
+  color: white; /* Mengatur warna teks menjadi putih untuk kontras */
+  padding: 50px 0; /* Menambahkan padding agar konten tidak terlalu dekat dengan tepi */
+}
+.page-content {
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+.skills-trend-categories {
+  margin-top: 100px;
+}
+
+.store-new-product {
+  margin-top: 10px;
+}
+
+.page-experience {
+  background-color: black;
+  color: white;
+  padding: 100px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+
+
+.page-contact {
+  margin-top: 50px;
+  padding: 100px;
+
+}
+
+
+
+.components-categories {
+  background: #f4f4f4;
+  border-radius: 8px;
+
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 50px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+
+    text-decoration: none;
+  }
+
+  .categories-text {
+    color: #0c0d36;
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 12px;
+  }
+
+  .page-auth {
+    .row-login {
+      min-height: 70vh;
+    }
+
+    .section-store-auth {
+      h2 {
+        color: #0c0d36;
+        font-size: 28px;
+        font-weight: 400;
+        margin-top: 0;
+      }
+
+      .form-control {
+        border-radius: 8px;
+        background: #f3f3f3;
+      }
+
+      .btn-signup {
+        color: #bbb;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: black;
+  border-top: 1px solid;
+  margin-top: 150px;
+
+  p {
+    color: #ffffff;
+  }
+}
+
+.form-control {
+  background-color: #f3f3f3;
+}
